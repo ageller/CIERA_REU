@@ -1,3 +1,3 @@
-# CIERA_REU
+# CIERA REU Files
 
 A repository containing files for our CIERA REU students.
