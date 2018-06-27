@@ -1,0 +1,3 @@
+[submodule "GitHub_tutorial/GettingStarted"]
+	path = GitHub_tutorial/GettingStarted
+	url = https://github.com/adamamiller/GettingStarted
