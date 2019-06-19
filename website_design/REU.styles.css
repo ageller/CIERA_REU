@@ -20,6 +20,11 @@ p {
 	 text-align: justify;
 }
 
+.bodyDiv {
+	width: 100%;  
+	background: #E64A45;
+}
+
 /* LINKS
  ****************************************************************/
 a { 
@@ -44,3 +49,10 @@ h2 {
   margin: 0;
 }
 
+.contact {
+	width: 100%;  
+	background: #3D4C53;
+	color: #E6772E; 
+	margin:0px; 
+	padding:10px;
+}
