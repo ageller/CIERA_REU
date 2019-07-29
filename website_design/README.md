@@ -1,4 +1,4 @@
-# A template for a basic website.  
+# A template for a basic website
 
 Your websites should all look substantially different from this, but we will use this as an example about how the various pieces of a website work together.
 
