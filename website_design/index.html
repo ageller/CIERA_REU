@@ -1,59 +1,73 @@
 
 <html>
 
-<head>
-<title>Northwestern REU Student</title>
+	<head>
+		<!-- This text will be displayed on the browser tab -->
+		<title>Northwestern REU Student</title>
+
+		<!-- This is a cascading style sheet (css) with styles for various elements on the page -->
+		<link rel="stylesheet" type="text/css" href="src/css/index.css" />
+
+	</head>
+
+	<body>
+
+		<!-- This div is filled with color according to the css class "filledDiv" in src/css/index.css-->
+		<div class="filledDiv">
+			<h2> Welcome! </h2>
+		</div>
+
+		<!-- Below is a table layout using divs.  There is also a table element in html, but that is falling out of favor for element alignment on websites, I think mainly for mobile compatibility -->
+		<!-- These divs are styled with "inline" styles as well as classes in css, as an alternative example (you could instead use classes in the css file for all these styles)-->
+		<div class="table" style="margin:10px;">
+			<div class="row" style="min-height: 350px; ">
+				<div class="cell" style="width:70%; vertical-align:top; background: #F2C249; padding:10px;">
+
+					<!-- Here is a simple dropdown menu following the method from here: https://www.w3schools.com/css/css_dropdowns.asp -->
+					<!-- but I added a bit of javascript for fun (and also because on mobile a mouse-over effect will not work) -->
+					<div id="menu1" class="dropdown" onclick="showDropdown(this)"> 
+						<span> menu </span>
+						<div id="menu1Dropdown" class="dropdown-content">
+							<a href="https://www.w3schools.com/css/css_dropdowns.asp" target="_blank">item 1</a>
+							<a href="https://www.w3schools.com/css/css_dropdowns.asp" target="_blank">item 2</a>
+							<a href="https://www.w3schools.com/css/css_dropdowns.asp" target="_blank">item 3</a>	
+						</div>
+
+					</div>
+
+					<p > Here is my website.  </p> 
+
+					<p > Here are a lot of random letters to fill up an entire paragraph. as;dlkf ja;ldfkp ofibj;dfjn ;aw4ier f;bn32j4roq awnrf; dka;flawn   e r;foia  js;dfona ;sldifj;a oiw3jro;fanv  dfkjvna; sejdflkavdn fkvbjan dsi f asdnf;a sdok f;oas ndflas dkmf p'asd nf kajn  sd'fo jasdfnas dlkvm 'pa sinb l a ds kjr;o aiwe jfn;vk lsdf n bp'ao jseroa wnedg v' lasmfoa wne  kg,b adfxfpk ae s;ognb; klas mgv as;dlkf ja;ldfkp ofibj;dfjn ;aw4ier f;bn32j4roq awnrf; dka;flawn   e r;foia  js;dfona ;sldifj;a oiw3jro;fanv  dfkjvna; sejdflkavdn fkvbjan dsi f asdnf;a sdok f;oas ndflas dkmf p'asd nf kajn  sd'fo jasdfnas dlkvm 'pa sinb l a ds kjr;o aiwe jfn;vk lsdf n bp'ao jseroa wnedg v' lasmfoa wne  kg,b adfxfpk ae s;ognb; klas mg.  </p> 
+
+					<p>And <a target="_blank" href="">here is a blank link that opens a new window</a> and <a href="">here is another blank link that stays in the same window</a>.</p>
 
 
-        <link rel="stylesheet" type="text/css" href="REU.styles.css" />
+					<br/>
+					<p><i>Note: Here's some text in italics! </i></p>
+				</div>
 
-</head>
+				<div class="cell" style="width:10px; "></div> <!-- spacing -->
 
-<body id="main">
-
-
-<div class="bodyDiv">
-
-<h2> Welcome! </h2>
-</div>
-
-
-<table border="0" cellspacing="10px" cellpadding="10px">
-<tr>
-<td style="width:70%; vertical-align:top; background: #F2C249;  min-height: 350px">
-
-  <p > Here is my website.  </p> 
-
-  <p > Here are a lot of random letters to fill up an entire paragraph. as;dlkf ja;ldfkp ofibj;dfjn ;aw4ier f;bn32j4roq awnrf; dka;flawn   e r;foia  js;dfona ;sldifj;a oiw3jro;fanv  dfkjvna; sejdflkavdn fkvbjan dsi f asdnf;a sdok f;oas ndflas dkmf p'asd nf kajn  sd'fo jasdfnas dlkvm 'pa sinb l a ds kjr;o aiwe jfn;vk lsdf n bp'ao jseroa wnedg v' lasmfoa wne  kg,b adfxfpk ae s;ognb; klas mgv as;dlkf ja;ldfkp ofibj;dfjn ;aw4ier f;bn32j4roq awnrf; dka;flawn   e r;foia  js;dfona ;sldifj;a oiw3jro;fanv  dfkjvna; sejdflkavdn fkvbjan dsi f asdnf;a sdok f;oas ndflas dkmf p'asd nf kajn  sd'fo jasdfnas dlkvm 'pa sinb l a ds kjr;o aiwe jfn;vk lsdf n bp'ao jseroa wnedg v' lasmfoa wne  kg,b adfxfpk ae s;ognb; klas mg.  </p> 
-
-  <p>And <a target="_blank" href="">here is a blank link that opens a new window</a> and <a href="">here is another blank link that stays in the same window</a>.</p>
-
-
-  <br/>
-  <p><i>Note: Here's some text in italics! </i></p>
-
-
-</td>
-
-<td style="background: #4DB3B3; ">
-
-  <figure align="center">
-	 <a href="http://sohowww.nascom.nasa.gov/data/realtime/eit_195/512/" target="_blank"><img height="300px" src="images/Sun.jpg" alt="Sun" /></a>
-	 <figcaption>Here is a caption</figcaption>
-  </figure>
-
-</td>
-
-</tr>
-
-</table>
-
-<div class="contact"> 
-Here's my contact info.
-</div>
+				<div class="cell" style="background: #4DB3B3; padding:10px; ">
+					<!-- this is a nice way to align a figure and caption together -->
+					<figure >
+						<a href="http://sohowww.nascom.nasa.gov/data/realtime/eit_195/512/" target="_blank"><img width="100%" src="src/images/Sun.jpg" alt="Sun" /></a>
+						<figcaption style="padding-top:4px"><b>Fig. 1:</b> Here is a caption</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
 
 
 
-</body><!-- /body -->
+		<div class="contact"> 
+			<span> Here's my contact info.</span>
+		</div>
+
+
+		<!-- my script to control the dropdown -->
+		<script src="src/js/dropdown.js"></script>
+		
+	</body>
 
 </html>

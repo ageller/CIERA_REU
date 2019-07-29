@@ -1,0 +1,107 @@
+html {
+		height: 100%;
+}
+body {
+		margin: 0;
+		padding: 0px;
+		border: none;
+		color: #000000;
+		font-family: sans-serif;
+		text-align: left;
+		height: 100%;
+}
+
+img {
+	 border: none;
+}
+
+
+p {
+	 text-align: justify;
+}
+
+.filledDiv {
+	background: #E64A45;
+}
+
+/* LINKS
+ ****************************************************************/
+a { 
+	 text-decoration: none;
+	 color: #E64A45;  
+} 
+
+a:hover {
+		font-style: italic; 
+}
+
+
+
+
+/* GENERAL FORMATTING
+*******************************************************************/
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #520063;
+	margin: 0;
+}
+
+.contact {
+	background: #3D4C53;
+	color: #E6772E; 
+	margin:0px; 
+	padding:10px;
+}
+
+/* DIV BASED TABLES */
+
+.table { 
+	display: table; 
+}
+.row { 
+	display: table-row; 
+}
+.cell { 
+	display: table-cell; 
+}
+
+/* DROPDOWN MENU */
+.dropdown {
+	position: relative;
+	background: #E6772E;
+	color: #3D4C53; 
+	min-width: 100px;
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	/*border: 2px solid #3D4C53;*/
+	cursor:pointer;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left:0px;
+	top:40px;
+	line-height:30px;
+	text-align:center;
+	margin:0;
+	background-color: #3D4C53;
+	color:#E6772E;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+	z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+	text-decoration: none;
+	display: block;
+	color:#E6772E;
+}
+/* The dropdown could simply work on a hover, but this is not mobile friendly. */
+/*.dropdown:hover .dropdown-content {
+	display: block;
+}*/
