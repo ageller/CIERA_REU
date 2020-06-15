@@ -14,3 +14,5 @@ Thumbs.db
 *ipynb_checkpoints*
 __pycache__
 *.pyc
+
+Python_tutorial_sequence/Part4/data/*
