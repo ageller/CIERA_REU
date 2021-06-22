@@ -7,7 +7,7 @@ git status
 git add
 git commit
 
-git log 
+git log
 git reset
   git reset --hard <hash>
   git reset --soft HEAD~1
@@ -38,11 +38,11 @@ git clone
   ALT: via Github Desktop
 
 <<Creating a Repo>>
-mkdir ghtutorial-2020
-cd ghtutorial-2020
-echo "# ghtutorial-2020" >> README.md
+mkdir ghtutorial-2021
+cd ghtutorial-2021
+echo "# ghtutorial-2021" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/XXX/ghtutorial-2020.git
+git remote add origin https://github.com/XXX/ghtutorial-2021.git
 git push -u origin master
