@@ -10,3 +10,4 @@ $ python -m http.server
 
 Then point your browser to localhost:8000
 
+[See also my Introduction to HTML, CSS and Javascript workshop here.](https://github.com/ageller/IntroToHTMLCSSJS)
