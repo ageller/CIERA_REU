@@ -10,6 +10,7 @@ Day 1
 5.	Assignment, schedule for next session + Q&A (15min)
 
 Day 2
-1.	Breakout rooms to share essay outlines and provide helpful feedback (45min)
-2.	Recap, each room shares summary with group (30min)
-3.	Q&A (15min)
+1.  Intro + Q&A (5min)
+2.	Breakout rooms to share essay outlines and provide helpful feedback (45min)
+3.	Recap, each room shares summary with group (30min)
+4.	Q&A (10min)
