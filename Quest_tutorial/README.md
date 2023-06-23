@@ -1,3 +1,3 @@
 # Quest Tutorial
 
-Materials can be found on the NUIT-RCS GitHub repository [here.](https://github.com/nuitrcs/intro-quest-ciera-workshop)  I copied the presentation here.
+Additional documentation can be found [here.](https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/). 
