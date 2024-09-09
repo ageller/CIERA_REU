@@ -1,6 +1,6 @@
 # Fall Graduate Application Workshop
 
-*Oct. 13 from 9:30am - 11am and Oct. 20 from 11am - 12:30pm central time.*
+*Sept. 27 from 3:30pm - 5pm and Oct. 21 from 3:30pm - 5pm central time.*
 
 Day 1
 1.  Review our GitHub materials (5min)
